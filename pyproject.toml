@@ -2,7 +2,7 @@
 name = "rr"
 version = "0.1.0"
 description = ""
-authors = ["https://github.com/Oucru-Innovations/RR-lite"]
+authors = []
 readme = "README.md"
 
 [tool.poetry.dependencies]
