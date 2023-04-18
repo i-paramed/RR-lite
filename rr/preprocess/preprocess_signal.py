@@ -1,6 +1,6 @@
 import numpy as np
 from scipy import signal
-from RRest.preprocess.band_filter import BandpassFilter
+from ..preprocess.band_filter import BandpassFilter
 from scipy.signal import detrend, resample
 
 def preprocess_signal(sig, fs, filter_type="butterworth", highpass=0.1, lowpass=0.5,

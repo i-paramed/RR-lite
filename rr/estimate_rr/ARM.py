@@ -2,7 +2,7 @@ import scipy.signal
 import plotly.graph_objects as go
 from spectrum import pburg
 import numpy as np
-from RRest.preprocess.preprocess_signal import preprocess_signal
+from ..preprocess.preprocess_signal import preprocess_signal
 
 
 # ======================================================================

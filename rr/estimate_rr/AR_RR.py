@@ -1,9 +1,7 @@
 import numpy as np
-from RRest.preprocess.band_filter import BandpassFilter
-from RRest.preprocess.preprocess_signal import preprocess_signal
+from ..preprocess.preprocess_signal import preprocess_signal
 from mne.filter import filter_data, resample
 from spectrum import arburg
-import pandas as pd
 
 
 # ======================================================================

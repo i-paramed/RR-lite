@@ -1,6 +1,6 @@
 import numpy as np
 from scipy import signal
-from RRest.preprocess.preprocess_signal import preprocess_signal
+from ..preprocess.preprocess_signal import preprocess_signal
 
 
 

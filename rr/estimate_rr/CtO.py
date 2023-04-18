@@ -1,7 +1,6 @@
 import numpy as np
 from scipy import signal
-from RRest.preprocess.band_filter import BandpassFilter
-from RRest.preprocess.preprocess_signal import preprocess_signal
+from rr.preprocess.preprocess_signal import preprocess_signal
 
 
 def get_rr(sig, fs, preprocess=True):

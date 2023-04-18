@@ -1,8 +1,8 @@
 from scipy.interpolate import splrep, splev
 from scipy.signal import detrend, find_peaks
 import numpy as np
-from RRest.preprocess.band_filter import BandpassFilter
-from RRest.preprocess.preprocess_signal import preprocess_signal
+from ..preprocess.band_filter import BandpassFilter
+from ..preprocess.preprocess_signal import preprocess_signal
 
 # Interpolate and compute HR
 def interp_cubic_spline(rri, sf_up=4):

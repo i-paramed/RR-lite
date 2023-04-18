@@ -1,7 +1,7 @@
-# from RRest.common.rpeak_detection import (
+# from common.rpeak_detection import (
 #     PeakDetector
 # )
-# from RRest.preprocess.band_filter import BandpassFilter
+# from ..preprocess.band_filter import BandpassFilter
 #
 # # all get_rr funtion must return the list of
 # # start points & end points of the RR

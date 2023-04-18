@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from pandas.core.dtypes.common import is_numeric_dtype
-from RRest.common.rpeak_detection import PeakDetector
+from rr.common.rpeak_detection import PeakDetector
 from hrvanalysis import get_nn_intervals
 
 OPERAND_MAPPING_DICT = {

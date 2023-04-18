@@ -2,8 +2,8 @@ from scipy.signal import find_peaks
 import plotly.graph_objects as go
 import numpy as np
 from scipy import signal
-from RRest.preprocess.band_filter import BandpassFilter
-from RRest.preprocess.preprocess_signal import preprocess_signal
+from ..preprocess.band_filter import BandpassFilter
+from ..preprocess.preprocess_signal import preprocess_signal
 
 
 def get_rr(sig, fs, preprocess=True):

@@ -1,7 +1,7 @@
 import scipy.signal
 from spectrum import arburg
 import numpy as np
-from RRest.preprocess.band_filter import BandpassFilter
+from ..preprocess.band_filter import BandpassFilter
 from scipy.signal import detrend, resample
 
 
