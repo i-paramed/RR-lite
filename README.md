@@ -11,3 +11,7 @@ The information produced by this tool is not intended for direct diagnostic use 
 Individuals should not change their health behavior solely on the basis of information produced on this tool. 
 Oucru does not independently verify the validity or utility of the information produced by this tool. If you have questions about the information produced on this website, please see a health care professional.
 
+# Development
+```
+make build && make test
+```
